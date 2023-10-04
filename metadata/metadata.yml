@@ -1,0 +1,55 @@
+metadata_version: 1
+name: 'Emotional arousal pattern (EMAP): A new database for modeling momentary subjective
+  and psychophysiological responding to affective stimuli'
+description: |-
+  This repository contains the source code for our paper:
+
+  Eisenbarth, H., Oxner, M., Shehu, H. A., Gastrell, T., Walsh, A., Browne, W. N., & Xue, B. (2023).
+  Emotional Arousal Pattern (EMAP): A New Database for Modeling Momentary Subjective and Psychophysiological Responses to Affective Stimuli.
+  Psychophysiology, e14446.
+
+  The code is part of our research aimed at investigating moment-by-moment brain activity and physiological measures to predict participants' emotional arousal ratings while they watched emotion-provoking videos. The study explores the temporal delay of physiological data through temporal shift analysis. It also conducts feature selection to identify the minimum number of features contributing to arousal rating prediction. Lastly, the study analyzes data selection approaches to investigate the impact of individual differences on predictions.
+
+  The repository includes code for predicting arousal ratings within and across participants, extracting features from EEG signals, and selecting the minimum number of features crucial for predicting participants' arousal ratings.
+tags:
+- affective computing
+- dataset
+- electroencephalogram
+- emotional corpora
+- emotional arousal
+- machine learning
+- modeling human emotion
+- physiological signals
+- temporal shift
+- EMAP dataset
+- Particle swarm optimization
+- feature selection
+- individual differences
+- decision trees
+- linear regression
+- random forest
+authors:
+- name: Harisu Abdullahi Shehu
+  affiliations:
+  - name: Victoria University of Wellington
+- name: Matt Oxner
+  affiliations:
+  - name: Leipzig University
+- name: Hedwig Eisenbarth
+  affiliations:
+  - name: Victoria University of Wellington
+- name: Tim Gastrell
+  affiliations:
+  - name: Victoria University of Wellington
+- name: Amy Walsh
+  affiliations:
+  - name: Karolinska Institute
+- name: Will N. Browne
+  affiliations:
+  - name: Queensland University of Technology
+- name: Bing Xue
+  affiliations:
+  - name: Victoria University of Wellington
+corresponding_contributor:
+  name: Hedwig Eisenbarth
+  email: hedwig.eisenbarth@vuw.ac.nz
